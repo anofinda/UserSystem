@@ -4,6 +4,6 @@
     <%
         String userName= (String) request.getSession().getAttribute("userName");
         if(userName==null)userName="guest";
-        out.println("hello,"+userName);
+        out.println("hello,"+userName+"!");
     %>
 </html>
